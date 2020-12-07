@@ -48,10 +48,7 @@
   
   .hero {
     background-image: url("./images.jpg");
-<<<<<<< HEAD
     height: 300px;
-=======
->>>>>>> a48fc11fb712fc4f95a2e4dd7271cac55b612f71
     background-size: cover;
     background-position: center;
   }
@@ -159,6 +156,4 @@
     justify-content: space-between;
     margin: 20px;
   }
-.luck {
-  display: flex;
-}
+
