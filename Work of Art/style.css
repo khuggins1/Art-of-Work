@@ -47,7 +47,7 @@
   }
   
   .hero {
-    background-image: url("../Portfolio/images.jpg");
+    background-image: url("./images.jpg");
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -103,7 +103,6 @@
   }
   
   .flexbox-item-2 {
-    display: flex-right;
     flex-direction: row;
   }
   
@@ -157,3 +156,4 @@
     justify-content: space-between;
     margin: 20px;
   }
+
