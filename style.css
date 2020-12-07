@@ -156,4 +156,6 @@
     justify-content: space-between;
     margin: 20px;
   }
-
+.luck {
+  display: flex;
+}
