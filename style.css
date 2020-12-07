@@ -47,8 +47,7 @@
   }
   
   .hero {
-    background-image: url("../Portfolio/images.jpg");
-    height: 300px;
+    background-image: url("./images.jpg")
     background-size: cover;
     background-position: center;
   }
