@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: orange;
+  }
+  
+  header {
+    padding: 20px 35px;
+    background-color: black;
+    justify-content: space-between;
+  }
+  
+  header a:hover {
+  background:grey;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: orange;
+    margin: 0;
+    display: inline;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: orange;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  
+  .hero {
+    background-image: url("../Portfolio/images.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  section {
+    padding: 60px;
+  }
+  
+  .intro {
+    text-align: left;
+  }
+  
+  .intro h2 {
+    display: flex;
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+    width: min-content;
+    /* border-bottom: 20px;
+    border-color: black; */
+    border-right: 5px solid grey;
+  }
+  /* 
+  .intro p2 {
+  
+  } */
+  h2 {
+    display: flex;
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+    width: min-content;
+    border-right: 5px solid grey; 
+  }
+  
+  #box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  .flexbox-item-1 {
+    display: flex-right;
+    flex-direction: row;
+  }
+  
+  .flexbox-item-2 {
+    display: flex-right;
+    flex-direction: row;
+  }
+  
+  
+  .flexbox-item-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    width: 100px;
+    width: 200px;
+    margin: 10px;
+    border: 10px solid black;
+    min-height: 100px;
+  }
+  
+  .flexbox-item-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    width: 100px;
+    width: 200px;
+    margin: 10px;
+    border: 10px solid black;
+    min-height: 100px;
+  }
+  
+  .flexbox-item-1:hover {
+    background-color: grey;
+  }
+  
+  .flexbox-item-2:hover {
+    background-color: grey;
+  }
+  
+  #contactme h2 {
+    display: flex;
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+    width: min-content;
+    border-right: 5px solid grey;
+  }
+  
+  #contactme {
+    display: flex;
+    flex-direction: row;
+  }
+  .contactinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+  }
