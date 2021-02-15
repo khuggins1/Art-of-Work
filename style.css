@@ -9,7 +9,7 @@
   }
   
   header {
-    padding: 20px 35px;
+    padding: 20px 30px;
     background-color: black;
     justify-content: space-between;
   }
@@ -58,14 +58,37 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
+ .about {
+  margin: 0px 0 25px;
+  padding: 0px 0 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.about > div {
+ flex: 0 0 20%;
+ text-align: right;
+ padding-right: 15px;
+ border-right: 4px;
+ font-size: 4vw;
+ line-height: 1.1;
+}
+
   section {
     padding: 60px;
   }
   
-  .intro {
-    text-align: left;
+  .intro > div {
+    text-align: right;
+    flex: 0 0 77%;
   }
   
+  .intro p2 {
+    margin-bottom: 20px
+  }
   .intro h2 {
     display: flex;
     font-size: 30px;
@@ -76,10 +99,7 @@
     border-color: black; */
     border-right: 5px solid grey;
   }
-  /* 
-  .intro p2 {
   
-  } */
   h2 {
     display: flex;
     font-size: 30px;
